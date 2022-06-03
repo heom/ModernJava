@@ -61,11 +61,11 @@ public class StreamAPI {
                 //Ex)
                 List<String> myList = Arrays.asList("aa", "ab", "ba", "cb", "ca");
                 myList
-                        .stream()							// 생성
-                        .filter(s -> s.startsWith("c"))		// 가공
-                        .map(String::toUpperCase)			// 가공
-                        .sorted()							// 가공
-                        .count();							// 결과
+                    .stream()							// 생성
+                    .filter(s -> s.startsWith("c"))		// 가공
+                    .map(String::toUpperCase)			// 가공
+                    .sorted()							// 가공
+                    .count();							// 결과
 
                 //생성
                 //가공
